@@ -7,11 +7,12 @@ export class Planets {
   }
 
   mercuryAge() {
-    let earthAge = (date.getTime() - birthDate.getTime()) / 1000;
-    let mercury = earthAge / .24;
-    return mercury;
+    return earthAge() / .24;
   }
 }
+
+
+// Helper Functions
 
 function earthAge() {
   return (date.getTime() - birthDate.getTime()) / 1000;
