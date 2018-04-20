@@ -1,4 +1,4 @@
-// import { Date } from './../src/age-calculator.js';
+import { Planets } from './../src/age-calculator.js';
 
 describe("Date", function() {
     let date = new Date(2018, 3, 20);
@@ -11,7 +11,10 @@ describe("Date", function() {
   });
 
   it("should convert age in earth years to age in mercury years", function(){
-    expect(planets.mercurcy()).toEqual(131400000);
+    debugger;
+    let mercury = new Planets("Mercury")
+    console.log(mercury);
+    expect(mercury.mercuryAge()).toEqual(131400000);
   });
 });
 
