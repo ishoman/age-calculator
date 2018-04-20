@@ -15,7 +15,7 @@ describe("Date", function() {
     expect(mercury.mercuryAge()).toEqual(131400000);
   });
 
-  it("should convert age in earth years to age in Mars years", function(){
+  it("should convert age in earth years to age in Venus years", function(){
     let venus = new Planets("Venus");
     expect(venus.venusAge()).toEqual(50864516);
   });
@@ -23,6 +23,11 @@ describe("Date", function() {
   it("should convert age in earth years to age in Mars years", function(){
     let mars = new Planets("Mars");
     expect(mars.marsAge()).toEqual(16774468);
+  });
+
+  it("should convert age in earth years to age in Jupiter years", function(){
+    let jupiter = new Planets("Jupiter");
+    expect(jupiter.jupiterAge()).toEqual(2659021);
   });
 
 
