@@ -35,5 +35,4 @@ describe("Age on Planets", function() {
   it("should calculate the time, in seconds, between two given dates", function() {
     expect(mercury.lifeExp()).toEqual(86400);
   });  //Not yet passing
-
 });
