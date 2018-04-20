@@ -1,0 +1,44 @@
+# _Isaac Shoman_
+
+#### _Javascript week one independent project_
+
+#### By _**Kristen Chellis and Isaac Shoman April 17, 2018**_
+
+## Description
+
+_This page will check a Sudoku board and inform the user if it passes or not._
+
+### Specs
+| Spec | Input | Output |
+| :-------------     | :------------- | :------------- |
+| **Program converts age in years to age in seconds** | User input: "1" | Output: "31536000" |
+| **Program converts age in Earth years to age on Mercury, Venus, Mars, or Jupiter** | User input: "1, Mars" | Output: "1.88" |
+| **Program can check the time, in seconds, between two dates** | User input: "4/19/2018-4/20/2018" | Output: "86400 seconds" |
+| **Program calculates life expectancy of the user based on demographics** | User input: "White Male" | Output: "76.4 years" |
+
+
+## Setup/Installation Requirements
+
+* _Clone this repository to your computer_
+* _Run "npm install" in CLI_
+* _Run "npm run build" in CLI_
+* _Open index.html in browser_
+
+
+## Known Bugs
+
+_There are no known bugs at this time_
+
+## Support and contact details
+
+_If you have any questions comments or concerns contact Isaac at isaac.shoman@gmail.com_
+
+## Technologies Used
+
+_JavaScript, jQuery, Bootstrap, and Webpack, Jasmine, Karma_
+
+### License
+
+*This page is licensed under the MIT license*
+
+Copyright (c) 2018 **_Isaac Shoman_**
