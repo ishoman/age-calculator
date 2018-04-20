@@ -13,6 +13,10 @@ export class Planets {
   venusAge() {
     return Math.floor(earthAge() / .62)
   }
+
+  marsAge() {
+    return Math.floor(earthAge() / 1.88)
+  }
 }
 
 
