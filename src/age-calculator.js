@@ -17,11 +17,15 @@ export class Planets {
   marsAge() {
     return Math.floor(earthAge() / 1.88)
   }
+
+  jupiterAge() {
+    return Math.floor(earthAge() / 11.86)
+  }
+
 }
 
 
 // Helper Functions
-
 function earthAge() {
   return (date.getTime() - birthDate.getTime()) / 1000;
 }
