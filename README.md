@@ -2,16 +2,16 @@
 
 #### _Javascript week one independent project_
 
-#### By _**Kristen Chellis and Isaac Shoman April 17, 2018**_
+#### By _**Isaac Shoman April 20, 2018**_
 
 ## Description
 
-_This page will check a Sudoku board and inform the user if it passes or not._
+_This program will convert age in Earth years to what a user's age would be on various planets._
 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **Program takes a date and returns age in seconds.** | User input: "1" | Output: "31536000" |
+| **Program takes a date and returns age in seconds.** | User input: "4/20/2017" | Output: "31536000" |
 | **Program converts age in Earth years to age on Mercury.** | User input: "1, Mercury" | Output: "4.17" |
 | **Program converts age in Earth years to age on Venus.** | User input: "1, Venus" | Output: "1.61" |
 | **Program converts age in Earth years to age on Mars.** | User input: "1, Mars" | Output: ".53" |
