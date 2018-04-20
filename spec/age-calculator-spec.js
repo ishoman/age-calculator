@@ -10,14 +10,19 @@ describe("Date", function() {
     expect((today - testDate) / 1000).toEqual(31536000);
   });
 
-  it("should convert age in earth years to age in mercury years", function(){
+  it("should convert age in earth years to age in Mercury years", function(){
     let mercury = new Planets("Mercury");
     expect(mercury.mercuryAge()).toEqual(131400000);
   });
 
-  it("should convert age in earth years to age in venus years", function(){
+  it("should convert age in earth years to age in Mars years", function(){
     let venus = new Planets("Venus");
     expect(venus.venusAge()).toEqual(50864516);
+  });
+
+  it("should convert age in earth years to age in Mars years", function(){
+    let mars = new Planets("Mars");
+    expect(mars.marsAge()).toEqual(16774468);
   });
 
 
