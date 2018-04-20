@@ -9,6 +9,10 @@ export class Planets {
   mercuryAge() {
     return earthAge() / .24;
   }
+
+  venusAge() {
+    return Math.floor(earthAge() / .62)
+  }
 }
 
 
