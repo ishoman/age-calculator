@@ -9,6 +9,10 @@ describe("Date", function() {
   it("should convert a given date into age in seconds", function(){
     expect((today - testDate) / 1000).toEqual(31536000);
   });
+
+  it("should convert age in earth years to age in mercury years", function(){
+    expect(planets.mercurcy()).toEqual(131400000);
+  });
 });
 
 
