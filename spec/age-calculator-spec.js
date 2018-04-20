@@ -2,7 +2,9 @@ import { Date } from './../src/age-calculator.js';
 
 describe("Date", function() {
   debugger;
-  const date = (2018, 3, 20);
+  const date = new Date(2018, 3, 20);
+  let today = Date.getTime();
+  console.log(today);
   let birthDate = new Date(2017, 3, 20);
 
   beforeEach(function(){
@@ -11,7 +13,7 @@ describe("Date", function() {
   });
 
   it("should convert a given date into age in seconds", function(){
-    expect((today - testDate) / 1000).toEqual(29894400);
+    expect((date.getTime() - birthDate.getTime()) / 1000).toEqual(29894400);
   });
 
 });
