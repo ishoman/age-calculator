@@ -1,29 +1,25 @@
-const date = new Date(2018, 3, 20);
-const birthDate = new Date(2017, 3, 20);
+export const date = new Date(2018, 3, 20);
+export const birthDate = new Date(2017, 3, 20);
 
-export class Planets {
+export class Planet {
   constructor (planet) {
     this.planet = planet;
   }
 
-  mercuryAge() {
-    return earthAge() / .24;
+  planetAge() {
+    if(this.planet === "Mercury") {
+      return earthAge() / .24;
+    } else if (this.planet === "Venus") {
+      return Math.floor(earthAge() / .62);
+    } else if (this.planet === "Venus") {
+      return Math.floor(earthAge() / 1.88);
+    } else if (this.planet === "Venus") {
+      return Math.floor(earthAge() / 11.86);
+    } else {
+      return earthAge();
+    }
   }
-
-  venusAge() {
-    return Math.floor(earthAge() / .62)
-  }
-
-  marsAge() {
-    return Math.floor(earthAge() / 1.88)
-  }
-
-  jupiterAge() {
-    return Math.floor(earthAge() / 11.86)
-  }
-
 }
-
 
 // Helper Functions
 function earthAge() {
