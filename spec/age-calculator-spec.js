@@ -7,8 +7,6 @@ describe("Age on Planets", function() {
   let jupiter = new Planet("Jupiter");
 
   it("should convert a given date into age in seconds", function(){
-    // let date = new Date(2018, 3, 20);
-    // let birthDate = new Date(2017, 3, 20);
     expect((today.getTime() - birthDate.getTime()) / 1000).toEqual(31536000);
   });
 
@@ -29,7 +27,13 @@ describe("Age on Planets", function() {
   });
 
   it("should output the time, in seconds, between two given dates", function() {
+    let today = new Date(2018, 3, 20);
+    let inputtedDate = new Date(2018, 3, 19);
     expect((today.getTime() - inputtedDate.getTime()) / 1000).toEqual(86400);
   });
+
+  it("should calculate the time, in seconds, between two given dates", function() {
+    expect(mercury.lifeExp()).toEqual(86400);
+  });  //Not yet passing
 
 });
