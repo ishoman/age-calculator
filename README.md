@@ -12,9 +12,13 @@ _This page will check a Sudoku board and inform the user if it passes or not._
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **Program converts age in years to age in seconds** | User input: "1" | Output: "31536000" |
-| **Program converts age in Earth years to age on Mercury, Venus, Mars, or Jupiter** | User input: "1, Mars" | Output: "1.88" |
+| **Program converts age in Earth years to age on Mercury** | User input: "1, Mercury" | Output: "4.17" |
+| **Program converts age in Earth years to age on Venus** | User input: "1, Venus" | Output: "1.61" |
+| **Program converts age in Earth years to age on Mars** | User input: "1, Mars" | Output: ".53" |
+| **Program converts age in Earth years to age on Jupiter** | User input: "1, Jupiter" | Output: ".08" |
 | **Program can check the time, in seconds, between two dates** | User input: "4/19/2018-4/20/2018" | Output: "86400 seconds" |
-| **Program calculates life expectancy of the user based on demographics** | User input: "White Male" | Output: "76.4 years" |
+| **Program calculates life expectancy of the user based on demographics** | User input: "White Male" | Output: "76.4" |
+| **Program tells user how much time they have left to live based on life expectancy** | User input: "White Male, 60" | Output: "16.4" |
 
 
 ## Setup/Installation Requirements
