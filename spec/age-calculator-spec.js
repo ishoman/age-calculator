@@ -11,11 +11,16 @@ describe("Date", function() {
   });
 
   it("should convert age in earth years to age in mercury years", function(){
-    debugger;
-    let mercury = new Planets("Mercury")
-    console.log(mercury);
+    let mercury = new Planets("Mercury");
     expect(mercury.mercuryAge()).toEqual(131400000);
   });
+
+  it("should convert age in earth years to age in venus years", function(){
+    let venus = new Planets("Venus");
+    expect(venus.venusAge()).toEqual(50864516);
+  });
+
+
 });
 
 
