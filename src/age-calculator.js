@@ -11,9 +11,9 @@ export class Planet {
       return earthAge() / .24;
     } else if (this.planet === "Venus") {
       return Math.floor(earthAge() / .62);
-    } else if (this.planet === "Venus") {
+    } else if (this.planet === "Mars") {
       return Math.floor(earthAge() / 1.88);
-    } else if (this.planet === "Venus") {
+    } else if (this.planet === "Jupiter") {
       return Math.floor(earthAge() / 11.86);
     } else {
       return earthAge();
