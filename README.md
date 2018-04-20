@@ -6,18 +6,18 @@
 
 ## Description
 
-_This program will convert age in Earth years to what a user's age would be on various planets._
+_This program will convert age in Earth years to what a user's age would be on various planets, and give their life expectancy on various planets_
 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-<!-- | **Program takes a birth date and returns age in seconds.** | User input: "4/20/2017" | Output: "31536000" | -->
-<!-- | **Program converts age in Earth years to age on Mercury.** | User input: "1, Mercury" | Output: "4.17" | -->
-<!-- | **Program converts age in Earth years to age on Venus.** | User input: "1, Venus" | Output: "1.61" | -->
-<!-- | **Program converts age in Earth years to age on Mars.** | User input: "1, Mars" | Output: ".53" | -->
-<!-- | **Program converts age in Earth years to age on Jupiter.** | User input: "1, Jupiter" | Output: ".08" | -->
+| **Program takes a birth date and returns age in seconds.** | User input: "4/20/2017" | Output: "31536000" |
+| **Program converts age in Earth years to age on Mercury.** | User input: "1, Mercury" | Output: "4.17" |
+| **Program converts age in Earth years to age on Venus.** | User input: "1, Venus" | Output: "1.61" |
+| **Program converts age in Earth years to age on Mars.** | User input: "1, Mars" | Output: ".53" |
+| **Program converts age in Earth years to age on Jupiter.** | User input: "1, Jupiter" | Output: ".08" |
 | **Program can check the time, in seconds, between today's date and inputted date.** | User input: "4/19/2018" | Output: "86400" |
-| **Program tells user how much time they have left to live based on life expectancy** | User input: "White Male, 60" | Output: "16.4" |
+| **Program tells user how much time they have left to live on different planets based on life expectancy** | User input: "76" | Output: "16.4" |
 
 
 ## Setup/Installation Requirements
@@ -30,7 +30,7 @@ _This program will convert age in Earth years to what a user's age would be on v
 
 ## Known Bugs
 
-_There are no known bugs at this time_
+_Final Spec not yet coded as of 4/20/2018._
 
 ## Support and contact details
 
