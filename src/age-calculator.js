@@ -27,7 +27,7 @@ export class Planet {
 //     let life = this.lifeExpectancy * 3.154e+10;
 //     return ((life - birthDate.getTime()) / 1000)
 //   }
-// }
+}
 
 
 // Helper Functions
