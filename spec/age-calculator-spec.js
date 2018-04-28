@@ -33,7 +33,14 @@ describe("Age on Planets", function() {
     expect((today.getTime() - inputtedDate.getTime()) / 1000).toEqual(86400);
   });
 
+  it("should calculate the life expectancy on earth", function() {
+    expect(earth.lifeExp()).toEqual(75);
+  });
+
   it("should calculate the life expectancy on various planets", function() {
-    expect(earth.earthlifeExp()).toEqual(75);
-  });  //Not yet passing
+    expect(mercury.planetLifeExp()).toEqual(313);
+    expect(venus.planetLifeExp()).toEqual(313);
+    expect(mars.planetLifeExp()).toEqual(313);
+    expect(jupiter.planetLifeExp()).toEqual(313);
+  });
 });
