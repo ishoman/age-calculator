@@ -22,9 +22,26 @@ export class Planet {
     }
   }
 
-  earthlifeExp() {
+  planetLifeExp() {
+    let age;
+    if(this.planet === "Mercury") {
+      age = Math.floor((earthAge() / 3.154e+7) / .24);
+      return this.lifeExpectancy - age;
+    } else if (this.planet === "Venus") {
+      return Math.floor(earthAge() / .62);
+    } else if (this.planet === "Mars") {
+      return Math.floor(earthAge() / 1.88);
+    } else if (this.planet === "Jupiter") {
+      return Math.floor(earthAge() / 11.86);
+    } else {
+      return lifeExp();
+    }
+
+  }
+
+  lifeExp() {
     let life = this.lifeExpectancy;
-    let age = (today.getTime() - birthDate.getTime()) / 31536000000
+    let age = Math.floor((today.getTime() - birthDate.getTime()) / 31536000000)
     return life - age;
   }
 }
