@@ -34,13 +34,13 @@ describe("Age on Planets", function() {
   });
 
   it("should calculate the life expectancy on earth", function() {
-    expect(earth.lifeExp()).toEqual(75);
+    expect(earth.planetLifeExp()).toEqual(75);
   });
 
   it("should calculate the life expectancy on various planets", function() {
     expect(mercury.planetLifeExp()).toEqual(313);
-    expect(venus.planetLifeExp()).toEqual(313);
-    expect(mars.planetLifeExp()).toEqual(313);
-    expect(jupiter.planetLifeExp()).toEqual(313);
+    expect(venus.planetLifeExp()).toEqual(121);
+    expect(mars.planetLifeExp()).toEqual(39.46815256546904);
+    expect(jupiter.planetLifeExp()).toEqual(5.915693661305379);
   });
 });
