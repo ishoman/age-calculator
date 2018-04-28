@@ -1,10 +1,11 @@
 import { Planet, today, birthDate } from './../src/age-calculator.js';
 
 describe("Age on Planets", function() {
-  let mercury = new Planet("Mercury");
-  let venus = new Planet("Venus");
-  let mars = new Planet("Mars");
-  let jupiter = new Planet("Jupiter");
+  let earth = new Planet("Earth", 76)
+  let mercury = new Planet("Mercury", 317);
+  let venus = new Planet("Venus", 123);
+  let mars = new Planet("Mars", 40);
+  let jupiter = new Planet("Jupiter", 6);
 
   it("should convert a given date into age in seconds", function(){
     expect((today.getTime() - birthDate.getTime()) / 1000).toEqual(31536000);
@@ -32,7 +33,7 @@ describe("Age on Planets", function() {
     expect((today.getTime() - inputtedDate.getTime()) / 1000).toEqual(86400);
   });
 
-  it("should calculate the time, in seconds, between two given dates", function() {
-    expect(mercury.lifeExp()).toEqual(86400);
+  it("should calculate the life expectancy on various planets", function() {
+    expect(earth.earthlifeExp()).toEqual(75);
   });  //Not yet passing
 });

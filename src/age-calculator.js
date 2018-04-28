@@ -2,10 +2,10 @@ export const today = new Date(2018, 3, 20);
 export const birthDate = new Date(2017, 3, 20);
 
 export class Planet {
-  constructor (planet) {
+  constructor (planet, lifeExpectancy) {
     this.planet = planet;
     this.date = birthDate;
-    this.lifeExpectancy = 76;
+    this.lifeExpectancy = lifeExpectancy;
   }
 
   planetAge() {
@@ -22,11 +22,11 @@ export class Planet {
     }
   }
 
-//   lifeExp() { // Not yet functional
-//     debugger;
-//     let life = this.lifeExpectancy * 3.154e+10;
-//     return ((life - birthDate.getTime()) / 1000)
-//   }
+  earthlifeExp() {
+    let life = this.lifeExpectancy;
+    let age = (today.getTime() - birthDate.getTime()) / 31536000000
+    return life - age;
+  }
 }
 
 
